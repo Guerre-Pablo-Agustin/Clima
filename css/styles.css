@@ -1,0 +1,93 @@
+:root{
+    font-size: 18px;
+    --bg-color : #2c2c2c;
+    --text-color: #fff;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+
+footer{
+    position:fixed;
+    bottom:0;
+    padding: 50px;
+    border-top: 1px solid grey;
+    width: 100%;
+    text-align: center;
+}
+
+strong{
+    color: grey;
+}
+
+.search-form{
+    margin: 20px;
+}
+
+.searchbox{
+    padding: 10px 20px;
+    background-color: var(--text-color);
+    max-width: 480px;
+    margin: 0px auto;
+}
+
+.search{
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    width: 100%;
+    font-size: 1rem;
+    border:none
+}
+
+.search:focus{
+    outline: none;
+}
+
+.weather-data{
+    max-width: 480px;
+    margin: 0px auto;
+    text-align: center;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    padding: 20px;
+    display: none;
+    border-radius: 30px;
+}  
+
+.ciudad{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.fecha{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.temperatura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.temp-img{
+    width: 50px;
+}
+
+.grados{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.estado{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
